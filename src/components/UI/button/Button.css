@@ -1,0 +1,14 @@
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    margin: 0.5rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+:disabled{
+    opacity: 70%;
+}

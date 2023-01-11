@@ -1,0 +1,9 @@
+.userItem{
+    border: 1px solid;
+    margin-top: 1rem;
+    padding: 0rem 1rem;
+}
+
+.userItem > p{
+    font-weight: 700;
+}
