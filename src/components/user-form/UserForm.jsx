@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import Button from '../UI/button/Button';
 import Input from '../UI/input/Input';
-import './UserForm.css'
 
 const UserForm = (props) => {
 

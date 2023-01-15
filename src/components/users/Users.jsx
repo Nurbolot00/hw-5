@@ -1,10 +1,10 @@
 import React from 'react';
 import UserItem from '../user-item/UserItem';
-import './Users.css'
+import classes from  './Users.module.css'
 
 const Users = ({users}) => {
     return (
-        <ul className="usersList">
+        <ul className={classes.usersList}>
         {users.map((elem, index) => {
           return (
             <UserItem

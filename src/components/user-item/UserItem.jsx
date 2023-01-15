@@ -1,10 +1,11 @@
 import React from 'react';
-import './UserItem.css'
+import classes from  './UserItem.module.css'
+
 
 const UserItem = ({userName,userAge}) => {
     return (
-        <div className='userItem'>
-            <p className='item-info'>{userName} ({userAge} years old)</p>
+        <div className={classes.userItem}>
+            <p className={classes.itemInfo}>{userName} ({userAge} years old)</p>
             
         </div>
     );
